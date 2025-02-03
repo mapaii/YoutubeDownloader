@@ -1,4 +1,4 @@
-# YoutubeDownloader
+# Youtube Downloader
 ## A web based python application to download youtube videos
 ### Using the application
 #### Clone GitHub repository

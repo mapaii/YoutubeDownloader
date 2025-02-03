@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>YouTube Video Downloader (error)</title>
+    <link rel="icon" href="{{url_for('static', filename='icon.png')}}" type="image/icon type">
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <meta http-equiv="refresh" content="5;url=https://youtubedownload.nw18.com"> <!-- 5 seconds redirect to the new URL -->
+    <style>
+        body {
+          background-image: url('/static/bground2.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        body {
+          font-family: 'Roboto';
+          font-size: 22px;
+        }
+    </style>
+</head>
+<body bgcolor="#9c90bb">
+    <center>
+        <img src="{{url_for('static', filename='logo.ico')}}" align="middle" height="150"/>
+        <h2>
+            <i>
+                <hr><br><br>
+                Seems like the link was incorrect <br>
+                Try again later :( <br>
+                Please try again..<br>
+                <br><br>
+            </i>
+        </h2><br><br><hr><br>
+    </center>
+    <footer>
+        <small>
+            <p>To download video/audio from various websites like YouTube, Twitter by Manoj Tewari.</p>
+        </small>
+    </footer>
+</body>
+</html>
